@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlorManía</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <span class="flor">Flor</span><span class="mania">Manía</span>
+        </div>
+        <div class="nav-links">
+            <span id="envia-flores">Envía Flores</span>
+            <span>Nosotros</span>
+            <button id="iniciar-sesion">Iniciar Sesión</button>
+        </div>
+    </header>
+
+    <nav class="c-categorias">
+        <span class="categoria">Girasoles</span>
+        <span class="categoria">Rosas</span>
+        <span class="categoria">Claveles</span>
+        <span class="categoria">Tulipanes</span>
+        <span class="categoria">Lirios</span>
+        <span class="categoria">Orquídeas</span>
+        <span class="categoria">Margaritas</span>
+    </nav>
+
+    <main>
+        <section class="c-flor-mes">
+            <h1 class="titulo">Flor del Mes</h1>
+            <img src="static/images/flor-del-mes.jpg" alt="Flor del Mes">
+        </section>
+
+        <section class="c-resultados">
+            <div class="resultados-header">
+                <p>Mostrando 50 resultados</p>
+                <a href="#" class="enlace-mas">Ver más Flores</a>
+            </div>
+
+            <div class="c-flores">
+                <div class="t-flor">
+                    <img src="static/images/ramo-de-rosas.jpg" alt="Ramo de Rosas" class="img-flor">
+                    <div class="c-info">
+                        <div class="info-texto">
+                            <p class="flor-nombre">Ramo de Rosas</p>
+                            <p class="flor-precio">$40.00</p>
+                        </div>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="t-flor">
+                    <img src="static/images/arreglo-tulipanes.jpg" alt="Arreglo Tulipanes" class="img-flor">
+                    <div class="c-info">
+                        <div class="info-texto">
+                            <p class="flor-nombre">Arreglo Tulipanes</p>
+                            <p class="flor-precio">$50.00</p>
+                        </div>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="t-flor">
+                    <img src="static/images/bouquet-lirios.jpg" alt="Bouquet Lirios" class="img-flor">
+                    <div class="c-info">
+                        <div class="info-texto">
+                            <p class="flor-nombre">Bouquet Lirios</p>
+                            <p class="flor-precio">$25.00</p>
+                        </div>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

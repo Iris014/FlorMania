@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --rosa: #D5A6BD;
+    --rosa-oscuro: #C27BA0;
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --gris: #CCCCCC;
+    --gris-claro: #EEEEEE;
+    --azul: #135B99;
+}
+
+body {
+    background-color: var(--blanco);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: var(--negro);
+}
+
+/* HEADER */
+header {
+    background-color: var(--rosa);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 140px;
+}
+
+.logo-container {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.flor {
+    color: var(--blanco);
+}
+
+.mania {
+    color: var(--negro);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--negro);
+}
+
+#envia-flores {
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--negro);
+    text-decoration: none;
+}
+
+#iniciar-sesion {
+    background-color: var(--blanco);
+    color: var(--negro);
+    padding: 8px 15px;
+    border: 2px solid var(--negro);
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* NAVEGACIÓN SECUNDARIA */
+.c-categorias {
+    background-color: var(--gris-claro);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.categoria {
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0px 100px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.c-flor-mes {
+    padding: 30px 60px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* PRODUCTOS */
+.c-resultados {
+    padding: 10px 60px 50px 60px;
+}
+
+.resultados-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.enlace-mas {
+    color: var(--azul);
+}
+
+/* TARJETAS DE FLORES */
+.c-flores {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.t-flor {
+    background-color: var(--gris-claro);
+    padding: 20px;
+    width: 32%;
+}
+
+.img-flor {
+    width: 100%;
+    height: 200px;
+    border: 2px solid var(--negro);
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.c-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.flor-nombre {
+    font-size: 1.1rem;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.flor-precio {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--rosa-oscuro);
+}
+
+.btn-comprar {
+    background-color: var(--rosa);
+    color: var(--negro);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 2px solid var(--negro);
+    border-radius: 4px;
+    cursor: pointer;
+}
